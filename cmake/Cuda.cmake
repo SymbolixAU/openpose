@@ -18,7 +18,7 @@ endmacro()
 
 # This list will be used for CUDA_ARCH = All option
 if (UNIX AND NOT APPLE)
-  set(Caffe_known_gpu_archs "20 21(20) 30 35 50 52 60 61")
+  set(Caffe_known_gpu_archs "30 35 50 52 60 61")
 elseif (WIN32)
   set(Caffe_known_gpu_archs "30 35 50 52 60 61")
 endif ()
